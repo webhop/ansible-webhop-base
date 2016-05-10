@@ -1,0 +1,25 @@
+---
+galaxy_info:
+  author: Nick Faulkner
+  description: Role to install base system utilities and configuration
+  company: Beamly Ltd
+  license: MIT
+  min_ansible_version: 1.8
+  platforms:
+  - name: Ubuntu
+    versions:
+    - natty
+    - oneiric
+    - precise
+    - quantal
+    - raring
+    - saucy
+    - trusty
+  - name: Debian
+    versions:
+    - lenny
+    - squeeze
+    - wheezy
+  categories:
+    - cloud
+dependencies: []
