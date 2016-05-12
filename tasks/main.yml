@@ -11,5 +11,7 @@
     - ntp
     - htop
     - build-essential
+    - mysql-client
     - python-dev
     - python-setuptools
+    - python-mysqldb
