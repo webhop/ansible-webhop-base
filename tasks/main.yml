@@ -16,3 +16,5 @@
     - python-setuptools
     - python-mysqldb
     - python-virtualenv
+    - libffi-dev
+    - libssl-dev
