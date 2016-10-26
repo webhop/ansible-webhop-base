@@ -1,6 +1,4 @@
 ---
-- name: Add deadsnakes-2.7 ppa
-  apt_repository: repo="ppa:fkrull/deadsnakes-python2.7"
 
 - name: Update the apt-cache
   apt: update_cache=yes cache_valid_time=3600
@@ -14,8 +12,7 @@
     - htop
     - build-essential
     - mysql-client
-    - python2.7
-    - python2.7-dev
+    - python-dev
     - python-setuptools
     - python-mysqldb
     - python-virtualenv
