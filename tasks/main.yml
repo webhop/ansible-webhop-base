@@ -14,8 +14,8 @@
     - htop
     - build-essential
     - mysql-client
-    - python-2.7
-    - python-dev
+    - python2.7
+    - python2.7-dev
     - python-setuptools
     - python-mysqldb
     - python-virtualenv
