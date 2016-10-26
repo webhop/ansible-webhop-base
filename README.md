@@ -15,3 +15,4 @@ Author Information
 -------------------
 
 * Nick Faulkner - nick@beamly.com
+* Vik Bhatti - vik@beamly.com
