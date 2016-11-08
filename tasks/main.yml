@@ -11,6 +11,9 @@
     - htop
     - build-essential
     - mysql-client
+    - php5.6-dom
+    - php5.6-mbstring
+    - php-memcache
     - python2.7
     - python2.7-dev
     - python-setuptools
