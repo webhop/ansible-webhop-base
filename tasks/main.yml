@@ -12,6 +12,7 @@
     - build-essential
     - mysql-client
     - php5.6-dom
+    - php-memcache
     - python2.7
     - python2.7-dev
     - python-setuptools
