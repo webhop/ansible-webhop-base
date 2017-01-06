@@ -19,3 +19,4 @@
     - libffi-dev
     - libssl-dev
     - unzip
+    - sendmail
