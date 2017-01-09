@@ -16,6 +16,20 @@
     - python-setuptools
     - python-mysqldb
     - python-virtualenv
+    - python-pip
     - libffi-dev
     - libssl-dev
     - unzip
+
+- name: "Update pip"
+  pip:
+    name: pip
+    state: latest
+
+- name: "Install python system-level modules"
+  pip:
+    name: "{{ item }}"
+    state: latest
+  with_items:
+    - virtualenv
+    - virtualenvwrapper
