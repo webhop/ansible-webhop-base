@@ -33,3 +33,15 @@
   with_items:
     - virtualenv
     - virtualenvwrapper
+
+- name: "Create /opt/beamly"
+  file:
+    path: /opt/beamly
+    state: directory
+    mode: 0755
+
+- name: "Create /mnt/log"
+  file:
+    path: /mnt/log
+    state: directory
+    mode: 0777
