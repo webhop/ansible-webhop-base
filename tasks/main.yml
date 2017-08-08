@@ -16,7 +16,6 @@
     - python-setuptools
     - python-mysqldb
     - python-virtualenv
-    - python-pip
     - libffi-dev
     - libssl-dev
     - unzip
