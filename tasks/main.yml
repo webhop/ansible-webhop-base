@@ -19,6 +19,7 @@
     - libffi-dev
     - libssl-dev
     - unzip
+    - acl
 
 - name: "Update pip"
   pip:
